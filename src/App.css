@@ -12,13 +12,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
 }
 
 .container{
   width: 90%;
   max-width: 90%;
-  background-color: chartreuse;
 }
 
 @media (min-width:1500px){

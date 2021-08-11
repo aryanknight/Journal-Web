@@ -1,5 +1,7 @@
+/* ------------------------------------------Global Styles---------------------------------------------------------- */
+
 .App{
-  background-color: #E8E8E8;
+  background-color: #EEEEEE;
   max-width: 100vw;
   min-height: 1000vh;
   overflow-x: hidden;
@@ -17,6 +19,73 @@
 .container{
   width: 90%;
   max-width: 90%;
+}
+
+.container-left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.head{
+  max-width: 80%;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.para{
+  max-width: 80%;
+  font-size: 18px;
+  color: #777777;
+}
+
+.main-button{
+  padding: 0.8rem 1rem;
+  font-size: 20px;
+  color:#606060;
+  background-color: #D7D7D7;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 15rem;
+}
+
+@media (max-width:800px){
+  
+  .container-left{
+    width: 100%;
+  }
+  
+  .container-right{
+    width: 100%;
+  }
+
+  .head{
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .para{
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .main-button{
+    font-size: 18px;
+    margin:10px 0px;
+    min-width: 12rem;
+  }
+
 }
 
 @media (min-width:1500px){

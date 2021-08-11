@@ -8,6 +8,8 @@ export default function Navbar() {
 
     useEffect(()=>{
         const a =document.getElementsByClassName("smallnav-cont")[0];
+        const b =document.getElementById("search-cont");
+        b.style.maxWidth="0px";
         a.style.maxHeight="0px";
     },[])
     
@@ -22,13 +24,10 @@ export default function Navbar() {
 
     function collapseSmall(){
         const a =document.getElementsByClassName("smallnav-cont")[0];
-        const b =document.getElementsByClassName("smallnav-cont-1")[0];
         if(a.style.maxHeight=="0px"){
-           // b.style.paddingTop="4rem";
             a.style.maxHeight=a.scrollHeight+"px";  
             console.log('a');
         }else{
-           // b.style.paddingTop="0rem";
             a.style.maxHeight="0px";
             console.log('b');
         } 

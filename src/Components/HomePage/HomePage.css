@@ -1,6 +1,7 @@
 .home{
     background-color: #E8E8E8;
     min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .home-cont{
@@ -24,9 +25,16 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 90%;
-    width: 90%;
+    max-width: 80%;
+    width: 80%;
     justify-content: space-between;
+}
+
+.read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 #home-img{
@@ -43,7 +51,7 @@
     .home-head{
         margin-top: 40px;
     }
-    
+
     #home-img{
         width:70%
     }

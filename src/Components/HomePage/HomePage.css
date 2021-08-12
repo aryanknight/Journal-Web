@@ -12,6 +12,14 @@
     flex-wrap: wrap;
 }
 
+.home-left{
+    justify-content: flex-start;
+}
+
+.home-right{
+    justify-content: flex-end;
+}
+
 .home-head{
     max-width: 90%;
 }
@@ -54,6 +62,10 @@
 
     #home-img{
         width:70%
+    }
+    
+    .home-right{
+        justify-content: center;
     }
 }
 

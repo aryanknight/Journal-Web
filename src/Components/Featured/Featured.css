@@ -1,0 +1,25 @@
+.featured{
+    background-color: #E8E8E8;
+}
+
+.featured-cont-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-1{
+    background-color: blueviolet;
+    width: 60%;
+}
+
+.box-2{
+    background-color: rgb(43, 198, 226);
+    width: 40%;
+}
+
+.featured-box{
+    background-color: rgb(160, 95, 154);
+    width: 90%;
+}

@@ -17,8 +17,8 @@
 }
 
 .container{
-  width: 90%;
-  max-width: 90%;
+  width: 80%;
+  max-width: 80%;
 }
 
 .container-left{
@@ -43,6 +43,12 @@
   font-weight: 500;
 }
 
+.title{
+  font-size: 28px;
+  text-align: left;
+  color:#606060;
+}
+
 .para{
   max-width: 80%;
   width: 80%;
@@ -60,9 +66,15 @@
   align-items: center;
   justify-content: space-between;
   min-width: 15rem;
+  cursor: pointer;
 }
 
 @media (max-width:800px){
+
+  .container{
+    width: 90%;
+    max-width: 90%;
+  }
   
   .container-left{
     width: 100%;
@@ -85,7 +97,7 @@
   .main-button{
     font-size: 18px;
     margin:10px 0px;
-    min-width: 12rem;
+    min-width: 100%;
   }
 
 }

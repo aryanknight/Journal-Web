@@ -9,7 +9,7 @@ export default function HomePage() {
         <>
             <div className="main home">
                 <div className="container home-cont">
-                    <div className="container-left">
+                    <div className="container-left home-left">
                         <div className="head home-head">
                             A great piece of copy, well written and just inviting .
                         </div>
@@ -21,7 +21,7 @@ export default function HomePage() {
                             <button className="main-button">Explore Journals <ArrowForwardIosIcon/></button>
                         </div>
                     </div>
-                    <div className="container-right">
+                    <div className="container-right home-right">
                         <img src={Img1} id="home-img"/>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function HomePage() {
 
             <div className="main home" style={{backgroundColor:'#EFEFEF'}} >
                 <div className="container home-cont" style={{backgroundColor:'#EFEFEF'}}>
-                    <div className="container-left">
+                    <div className="container-left home-left">
                         <div className="head home-head">
                             We believe in <br/> providing value.
                         </div>
@@ -40,7 +40,7 @@ export default function HomePage() {
                             <div className="read-more"><ArrowRightAltIcon/> <u>Read More</u></div>
                         </div>
                     </div>
-                    <div className="container-right">
+                    <div className="container-right home-right">
                         <img src={Img1} id="home-img"/>
                     </div>
                 </div>

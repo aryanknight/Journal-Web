@@ -84,4 +84,8 @@
         display: block;
     }
 
+    .navbar{
+        position: absolute;
+    }
+
 }

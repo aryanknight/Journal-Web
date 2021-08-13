@@ -1,18 +1,24 @@
 import React from 'react';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import Img2 from '../../Images/img2.png';
+import Img3 from '../../Images/img3.png';
+import Card from './Card.jsx';
+import Author from './Author.jsx';
 import './Featured.css';
 
 export default function Featured() {
+    
     return (
+
+        <>
         <div className="main featured">
             <div className="container">
                 <div className="title" style={{margin:'40px 0px'}} >Featured Picks</div>
                 <div className="featured-cont-1">
                     <div className="box-1">
                         <div className="featured-box">
-                            <div className="featured-box-pic">
-                                <img src={Img2} style={{width:'100%'}} />
+                            <div className="featured-box-pic-cont">
+                                <img className="featured-box-pic" src={Img2} />
                             </div>
                             <div className="featured-box-para">
                                 <div className="para-1">
@@ -32,8 +38,8 @@ export default function Featured() {
                     </div>
                     <div className="box-2">
                         <div className="featured-box" style={{height:'100%'}}>
-                            <div className="featured-box-pic">
-                                <img src={Img2} style={{width:'100%',height:'100%'}} />
+                            <div className="featured-box-pic-cont">
+                                <img className="featured-box-pic" src={Img3} />
                             </div>
                             <div className="featured-box-para">
                                 <div className="para-1">
@@ -49,7 +55,20 @@ export default function Featured() {
                         </div>
                     </div>
                 </div>
+
+                <div className="featured-cont-2">
+                    <div className="featured-card-cont">
+                        <Card/>
+                    </div>
+
+                    <div className="featured-card-cont" id="featured-card-cont">
+                        <Card/>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <Author />
+        </>
     )
 }

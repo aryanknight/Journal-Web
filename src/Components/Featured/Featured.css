@@ -71,6 +71,7 @@
     background-color: #EFEFEF;
     min-height: 100vh;
     flex-wrap: wrap;
+    padding-bottom: 80px;
 }
 
 .author-cont{

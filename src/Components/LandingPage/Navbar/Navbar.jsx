@@ -1,5 +1,5 @@
 import React , {useEffect} from 'react';
-import Logo from '../../Images/logo.png';
+import Logo from '../../../Images/logo.png';
 import SearchIcon from '@material-ui/icons/Search';
 import MenuIcon from '@material-ui/icons/Menu';
 import './Navbar.css';

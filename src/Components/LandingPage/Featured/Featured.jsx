@@ -1,7 +1,7 @@
 import React from 'react';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import Img2 from '../../Images/img2.png';
-import Img3 from '../../Images/img3.png';
+import Img2 from '../../../Images/img2.png';
+import Img3 from '../../../Images/img3.png';
 import Card from './Card.jsx';
 import Author from './Author.jsx';
 import './Featured.css';

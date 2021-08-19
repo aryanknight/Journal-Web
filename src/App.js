@@ -1,5 +1,6 @@
 import './App.css';
-import LandingPage from './Page';
+import LandingPage from './Pages/LandingPage';
+import JournlsPage from './Pages/JournlsPage';
 import { BrowserRouter , Route } from 'react-router-dom';
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
     <BrowserRouter>
       <Route exact path="/">
         <LandingPage/>
+      </Route>
+      <Route exact path="/journals">
+        <JournlsPage/>
       </Route>
 
     </BrowserRouter>

@@ -1,0 +1,41 @@
+
+.root{
+    max-width: 320px;
+    min-height: 380px;
+    position: relative;
+}
+
+.action{
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    width: 100%;
+    color:rgb(31, 120, 236);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.action:hover{
+    color: rgb(8, 59, 226);
+}
+
+@media(min-width:1600px){
+    .root{
+        max-width: 400px;
+        min-height: 350px;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1200px){
+    .root{
+        max-width: 400px;
+    }
+}
+
+@media(max-width:1150px){
+    .card{
+        margin: 20px 0px;
+    }
+}    

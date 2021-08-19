@@ -1,5 +1,5 @@
 import React from 'react';
-import Img5 from '../../Images/img5.png';
+import Img5 from '../../../Images/img5.png';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 export default function Author() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Img1 from '../../Images/img1.png';
+import Img1 from '../../../Images/img1.png';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import './HomePage.css';
